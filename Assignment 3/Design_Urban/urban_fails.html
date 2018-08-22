@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<title>FrickenDesigners - Urban Design Fails</title>
+			<link rel="stylesheet" href="..//final_project_stylesheet.css">
+				<meta name="viewport" content="width=device-width, initial-scale=1"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script>
+$(document).ready(function(){
+	$('.failFigure a').click(function(){
+		var galleryHref = $(this).attr('href');
+		var galleryAlt = $(this).attr('title');
+		$('figure img').attr({ src: galleryHref, alt: galleryAlt });
+		$('figcaption').html(galleryAlt);
+		 return false;
+	});
+});
+</script>
+				
+					<!--[if lt IE 9]>
+					<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+					</script>
+					<![endif]-->
+				</head>
+				<body>					
+					<header>
+							<div class="container">
+								<a href="..//..//index.html"><h1>Fricken<br>Designers</h1></a>														
+									<nav>
+										<span id="tagline">where production and designers collide and sensibility ceases to exist</span>
+										
+<div class="topnav">
+<div id="homebutton">
+<button onclick="myFunction(sub0)" class="dropbtn">Home</button>
+  <div id="sub0" class="dropmenu-content">
+<a href="..//index.html">Home</a>
+</div>
+</div>
+<div id="fashionbutton">
+<button onclick="myFunction(sub1)" class="dropbtn">Fashion</button>
+  <div id="sub1" class="dropmenu-content">
+	<a href="..//Design_Fashion/fashion_instructables.html">Fashion News</a>
+	<a href="..//Design_Fashion/fashion_fails.html">Fashion Fails</a>
+  </div>
+ </div>
+ <div id="graphicbutton" >
+<button onclick="myFunction(sub2)" class="dropbtn">Graphic</button>
+  <div id="sub2" class="dropmenu-content">
+	<a href="..//Design_graphic/graphic_instructables.html">Graphic Arts News</a>
+	<a href="..//Design_graphic/graphic_fails.html">Graphic Arts Fails</a>
+  </div>
+   </div>
+ <div id="industrialbutton" >
+  <button onclick="myFunction(sub3)"  class="dropbtn">Industrial</button>
+  <div id="sub3" class="dropmenu-content">
+	<a href="..//Design_industrial/industrial_instructables.html">Industrial Design News</a>
+	<a href="..//Design_industrial/industrial_fails.html">Industrial Design Fails</a>
+  </div>
+ </div>
+ <div id="interiorbutton">
+  <button onclick="myFunction(sub4)" class="dropbtn">Interior</button>
+  <div id="sub4" class="dropmenu-content">
+	<a href="..//Design_Interior/interior_instructables.html">Interior Design News</a>
+	<a href="..//Design_Interior/interior_fails.html">Interior Design Fails</a>
+  </div>
+</div>
+ <div id="urbanbutton">
+  <button onclick="myFunction(sub5)" class="dropbtn">Urban</button>
+  <div id="sub5" class="dropmenu-content">
+	<a href="..//Design_Urban/urban_instructables.html">Urban Design News</a>
+	<a href="..//Design_Urban/urban_fails.html">Urban Design Fails</a>
+  </div>
+</div>
+ <div id="uxbutton">
+  <button onclick="myFunction(sub6)"  class="dropbtn">UX</button>
+  <div id="sub6" class="dropmenu-content">
+	<a href="..//Design_UX/UX_instructables.html">UX Design News</a>
+	<a href="..//Design_UX/UX_fails.html">UX Design Fails</a>
+  </div>
+</div>
+</div>
+
+<script>
+window.myFunction = function(e) {
+  var dropdown = e.parentNode.getElementsByClassName('dropmenu-content')[0];
+  dropdown.classList.toggle('show');
+}
+	
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropmenu-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {  	 
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</nav>	
+												
+												<div class="social_media">
+													<a href ="https://twitter.com/Frickendesigner">
+														<img src = "..//images/twitter_icon.png" width ="24" height ="24" alt="Twitter">
+														</a>
+														<a href ="https://www.instagram.com/frickendesigners/">
+															<img src = "..//images/insta_icon.png" width ="24" height ="24" alt="Instagram">
+															</a>
+															<a href="https://www.facebook.com/frickendesigners/">
+																<img src = "..//images/face_icon.png" width ="24" height ="24" alt="Facebook">
+																</a>
+																<a href="tel:555-555-1212">
+																	<img src = "..//images/phone_icon.png" width ="24" height ="24" alt="Phone">
+																	</a>
+																	<a href="mailto:frickendesigners@gmail.com">
+																		<img src = "..//images/email_icon.png" width ="32" height ="24" alt="Email">
+																		</a>	
+																		</div>
+																		
+																		<div id="mySidenav" class="sidenav">
+																			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+																			<br>				
+																				<a href="#" onclick="change('sub7')">Fashion Design</a>	
+																				<div id="sub7" style="display:none">
+																					<a href="..//Design_Fashion/fashion_instructables.html" class="sub">Fashion News
+																					</a>
+																					<br>
+																						<a href="..//Design_Fashion/fashion_fails.html" class="sub">Fashion Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub8')">Graphic Design</a>	
+																				<div id="sub8" style="display:none">
+																					<a href="..//Design_Graphic/graphic_instructables.html" class="sub">Graphic Arts News
+																					</a>
+																					<br>
+																						<a href="..//Design_Graphic/graphic_fails.html" class="sub">Graphic Arts Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub9')">Industrial Design</a>	
+																				<div id="sub9" style="display:none">
+																					<a href="..//Design_Industrial/industrial_instructables.html" class="sub">Industrial Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Industrial/industrial_fails.html" class="sub">Industrial Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub10')">Interior Design</a>	
+																				<div id="sub10" style="display:none">
+																					<a href="..//Design_Interior/interior_instructables.html" class="sub">Interior Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Interior/interior_fails.html" class="sub">Interior Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub11')">Urban Design</a>	
+																				<div id="sub11" style="display:none">
+																					<a href="..//Design_Urban/urban_instructables.html" class="sub">Urban Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Urban/urban_fails.html" class="sub">Urban Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub12')">UX Design</a>	
+																				<div id="sub12" style="display:none">
+																					<a href="..//Design_UX/ux_instructables.html" class="sub">UX Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_UX/ux_fails.html" class="sub">UX Design Fails
+																						</a>
+																					</div>
+																				</div>
+																				
+																				<div id="main">
+																					<span onclick="openNav()">
+																						<img class="hamburger" src="..//images/hamburger_icon.png" width="40" height="40" alt="menu">
+																						</span>
+																					</div>
+																					
+																																					<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+																</script>															
+																				</div>							
+																		</header>		
+									
+									
+												<div class="container">												
+													<main>
+														<img id="banner_ad" src="..//images/banner_ad.jpg" width="1080" height="50" alt="Banner Ad">
+							<h1>Urban Design Fails</h1>
+				<div class="failFigure">
+			<figure>
+											<img src="..//images/funstuff/urbanfail1.jpg" width="400" height="300" alt="graphicfail1">
+												<figcaption>This is really going to affect<br> my Strava time</figcaption>
+											</figure>
+											
+<table id="failTable">
+					<tr>
+					<td>	
+					<a href="..//images/funstuff/urbanfail1.jpg" title="This is really going to affect<br> my Strava time">
+						<img src="..//images/funstuff/urbanfail1.jpg" height="75" width="100" alt="thumb 1">	</a>
+</td>
+<td>
+							<a href="..//images/funstuff/urbanfail2.jpg" title="This is why you shouldn't<br> text and bike">
+								<img src="..//images/funstuff/urbanfail2.jpg" height="75" width="100" alt="thumb 2">	</a>
+								</td>
+<td>
+
+						<a href="..//images/funstuff/urbanfail3.jpg" title="When the engineer is working<br> in metric and the guys installing<br> the grate are working<br> in imperial">
+							<img src="..//images/funstuff/urbanfail3.jpg" height="75" width="100" alt="thumb 3"></a>
+							</td>
+							</tr>
+							<tr>
+<td>
+
+							<a href="..//images/funstuff/urbanfail4.jpg" title="Hope you're not afraid of heights">
+								<img src="..//images/funstuff/urbanfail4.jpg" height="75" width="100" alt="thumb 4"></a>
+</td>
+<td>
+						<a href="..//images/funstuff/urbanfail5.jpg" title="When the Parks board<br> doesn't have an open channel<br> to the Parking Department to<br> discuss design plans">
+							<img src="..//images/funstuff/urbanfail5.jpg" height="75" width="100" alt="thumb 5"></a>
+</td>
+<td>
+							<a href="..//images/funstuff/urbanfail6.jpg" title="It's everywhere!!!">
+								<img src="..//images/funstuff/urbanfail6.jpg" height="75" width="100" alt="thumb 6"></a>
+								</td>
+								</tr>
+
+	</table>
+				</div>						
+
+						</main>
+																					<aside>
+																																												<div class = "contact">
+																							<h2>Contact</h2>
+																							<p>Andrew Hewitson<br>
+																						Lower-2230 Mountain Hwy.<br>
+																						North Vancouver, B.C.<br>     V7J2M9<br>
+																												<a id="mobile" href="tel:778-228-2070">778-228-2070</a>	
+																												<span id="desktop">778-228-2070</span>
+																												<a href="mailto:switch_900@hotmail.com">
+																													<em>switch_900@hotmail.com</em>
+																												</a>
+																											</p>
+																										</div>
+
+																										
+																																						<a class="twitter-timeline"  href="https://twitter.com/hashtag/designers" data-widget-id="972990664433479681">#designers Tweets</a>
+																																						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+																																						<br>
+																																							<a href="https://twitter.com/intent/tweet?button_hashtag=aliceandgypsy&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #aliceandgypsy</a>
+																																							<script async src="https://platform.twitter.com/widgets.js"></script>
+																																							<a style="float:left;" href="http://jigsaw.w3.org/css-validator/check/referer">
+																																								<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" >
+																																								</a> 
+																																							</aside>
+																																						</div>																																<footer>Copyright &copy; 2018 FrickenDesigners<br><a href="Contact_Signup_Login/contact_signup_login.html">Contact |&nbsp;</a>
+																																							<a href="..//Careers/careers.html">Careers |&nbsp;</a>
+																																							<a href="..//About_Us/about_us.html">About Us |&nbsp;</a>
+																																							<a href="..//Legal/legal.html">Legal |&nbsp;</a>
+																																							<a href="..//Sitemap/sitemap.html">Site Map</a>
+																																							</footer>		
+
+<script>
+<!--																									 
+	function change(menuname){
+		sub=document.getElementById(menuname);
+		if(sub.style.display=='none')
+			sub.style.display="block";
+		else
+			sub.style.display="none";
+	}			
+//-->
+	</script>
+																																					</body>
+																																				</html>
