@@ -1,0 +1,118 @@
+body { 	background-color: #095573; 
+		color: white;
+		font-family:Georgia, "Times New Roman", serif;
+		font-size: 1.5em;
+		text-indent: 1em;
+		text-align: center;	
+}
+
+h1 {
+	background-color: #FED55D;
+	color: black;
+ 	font-size: 1.5em;
+  	text-align: center;
+	border: 2px solid black;
+	border-radius: 25px;
+
+}
+
+table { margin: auto;
+		}
+
+form {
+  margin: 2em;
+}
+
+.hide {
+  position: absolute;
+  left: -10000px;
+}
+
+label {
+  display: inline-block;
+  background: gray;
+  margin: 25px;
+  position: relative;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 2px;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+}
+
+a{
+	color:white;
+	text-align: center;
+	}
+
+
+#happy ~ .option-happy {
+  cursor: url("large (12).cur"), auto;
+	}
+#happy:checked ~ .option-happy {
+  background:  #FED55D;
+	}	
+
+#sad ~ .option-sad {
+  cursor: wait;
+	}
+#sad:checked ~ .option-sad {
+  background:  #FED55D;
+	}
+
+#meh ~ .option-meh {
+  cursor: not-allowed;
+	}
+#meh:checked ~ .option-meh {
+  background:  #FED55D;
+	}
+
+#progress ~ .option-progress {
+	cursor: progress;
+	}
+#progress:checked ~ .option-progress {
+	background:  #FED55D;
+	}
+
+#help ~ .option-help {
+	cursor: help;
+	}
+#help:checked ~ .option-help {
+	background:  #FED55D;
+	}
+
+#none ~ .option-none {
+	cursor: none;
+	}
+#none:checked ~ .option-none {
+	background:  #FED55D;
+	}
+
+#n-resize ~ .option-n-resize {
+	cursor: n-resize;
+	}
+#n-resize:checked ~ .option-n-resize {
+	background:  #FED55D;
+	}
+
+#crosshair ~ .option-crosshair {
+	cursor: crosshair;
+}
+#crosshair:checked ~ .option-crosshair {
+	background:  #FED55D;
+	}
+
+footer a{
+	color: black;
+}
+
+footer {	border: 2px solid black;
+		border-radius: 25px;
+		color: black;
+		background-color: #FED55D ;
+		font-size: .75em;
+		font-style: italic;}
+	

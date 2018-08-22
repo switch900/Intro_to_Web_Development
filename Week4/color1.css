@@ -1,0 +1,65 @@
+body { 	background-color: navy; 
+		color: #f2f2f2;
+		font-family:Georgia, "Times New Roman", serif;
+		font-size: .9em;
+		text-indent: 1em;}
+h1 { 	background-color: #f2f2f2; 
+		color: navy; 
+		font-family: Georgia, "Times New Roman", serif;
+		text-indent: 1em;
+		text-align: center;
+		border: 2px solid black;
+		border-radius: 25px;
+}	
+
+a:link, a:visited {
+    color: #f2f2f2;	
+    text-align: center; 
+    text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000000;
+}
+
+table,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+	font-size: 1.0em;
+	text-align:left;
+	}
+table{	width: 100%;
+	}
+
+#sites th {
+		background-color: yellow;
+		color: navy;
+}
+
+#sites tr:nth-child(even){background-color: #f2f2f2;
+				color: navy;
+}
+
+#sites tr:nth-child(odd){background-color: navy;
+				color: #f2f2f2;}
+
+#sites tr:nth-child(even) a {color: navy;}
+
+#sites tr:nth-child(odd) td a:hover{background-color: #f2f2f2;
+				color: navy;}
+
+#sites tr:nth-child(even) td a:hover{background-color: navy;
+				color: #f2f2f2;}
+
+footer a:link{color: navy;}
+
+footer a:hover{color:#f2f2f2;
+		background:navy;}
+	
+footer {	text-align: center;
+		color: navy;	
+		background-color: yellow;
+		font-size: .75em;
+		font-style: italic;
+		border: 2px solid black;
+		border-radius: 25px;}
