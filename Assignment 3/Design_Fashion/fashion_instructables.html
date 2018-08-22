@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<title>FrickenDesigners - Fashion Instructables</title>
+			<link rel="stylesheet" href="..//final_project_stylesheet.css">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+					<!--[if lt IE 9]>
+					<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+					</script>
+					<![endif]-->
+				</head>
+				<body>
+					<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
+					<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+					</script>						
+					<header>
+							<div class="container">
+								<a href="..//..//index.html"><h1>Fricken<br>Designers</h1></a>													
+									<nav>
+										<span id="tagline">where production and designers collide and sensibility ceases to exist</span>
+										
+<div class="topnav">
+<div id="homebutton">
+<button onclick="myFunction(sub0)" class="dropbtn">Home</button>
+  <div id="sub0" class="dropmenu-content">
+<a href="..//index.html">Home</a>
+</div>
+</div>
+<div id="fashionbutton">
+<button onclick="myFunction(sub1)" class="dropbtn">Fashion</button>
+  <div id="sub1" class="dropmenu-content">
+	<a href="..//Design_Fashion/fashion_instructables.html">Fashion News</a>
+	<a href="..//Design_Fashion/fashion_fails.html">Fashion Fails</a>
+  </div>
+ </div>
+ <div id="graphicbutton" >
+<button onclick="myFunction(sub2)" class="dropbtn">Graphic</button>
+  <div id="sub2" class="dropmenu-content">
+	<a href="..//Design_graphic/graphic_instructables.html">Graphic Arts News</a>
+	<a href="..//Design_graphic/graphic_fails.html">Graphic Arts Fails</a>
+  </div>
+   </div>
+ <div id="industrialbutton" >
+  <button onclick="myFunction(sub3)"  class="dropbtn">Industrial</button>
+  <div id="sub3" class="dropmenu-content">
+	<a href="..//Design_industrial/industrial_instructables.html">Industrial Design News</a>
+	<a href="..//Design_industrial/industrial_fails.html">Industrial Design Fails</a>
+  </div>
+ </div>
+ <div id="interiorbutton">
+  <button onclick="myFunction(sub4)" class="dropbtn">Interior</button>
+  <div id="sub4" class="dropmenu-content">
+	<a href="..//Design_Interior/interior_instructables.html">Interior Design News</a>
+	<a href="..//Design_Interior/interior_fails.html">Interior Design Fails</a>
+  </div>
+</div>
+ <div id="urbanbutton">
+  <button onclick="myFunction(sub5)" class="dropbtn">Urban</button>
+  <div id="sub5" class="dropmenu-content">
+	<a href="..//Design_Urban/urban_instructables.html">Urban Design News</a>
+	<a href="..//Design_Urban/urban_fails.html">Urban Design Fails</a>
+  </div>
+</div>
+ <div id="uxbutton">
+  <button onclick="myFunction(sub6)"  class="dropbtn">UX</button>
+  <div id="sub6" class="dropmenu-content">
+	<a href="..//Design_UX/UX_instructables.html">UX Design News</a>
+	<a href="..//Design_UX/UX_fails.html">UX Design Fails</a>
+  </div>
+</div>
+</div>
+
+<script>
+window.myFunction = function(e) {
+  var dropdown = e.parentNode.getElementsByClassName('dropmenu-content')[0];
+  dropdown.classList.toggle('show');
+}
+	
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropmenu-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {  	 
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</nav>	
+												
+												<div class="social_media">
+													<a href ="https://twitter.com/Frickendesigner">
+														<img src = "..//images/twitter_icon.png" width ="24" height ="24" alt="Twitter">
+														</a>
+														<a href ="https://www.instagram.com/frickendesigners/">
+															<img src = "..//images/insta_icon.png" width ="24" height ="24" alt="Instagram">
+															</a>
+															<a href="https://www.facebook.com/frickendesigners/">
+																<img src = "..//images/face_icon.png" width ="24" height ="24" alt="Facebook">
+																</a>
+																<a href="tel:555-555-1212">
+																	<img src = "..//images/phone_icon.png" width ="24" height ="24" alt="Phone">
+																	</a>
+																	<a href="mailto:frickendesigners@gmail.com">
+																		<img src = "..//images/email_icon.png" width ="32" height ="24" alt="Email">
+																		</a>	
+																		</div>
+																		
+																		<div id="mySidenav" class="sidenav">
+																			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+																			<br>				
+																				<a href="#" onclick="change('sub7')">Fashion Design</a>	
+																				<div id="sub7" style="display:none">
+																					<a href="..//Design_Fashion/fashion_instructables.html" class="sub">Fashion News
+																					</a>
+																					<br>
+																						<a href="..//Design_Fashion/fashion_fails.html" class="sub">Fashion Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub8')">Graphic Design</a>	
+																				<div id="sub8" style="display:none">
+																					<a href="..//Design_Graphic/graphic_instructables.html" class="sub">Graphic Arts News
+																					</a>
+																					<br>
+																						<a href="..//Design_Graphic/graphic_fails.html" class="sub">Graphic Arts Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub9')">Industrial Design</a>	
+																				<div id="sub9" style="display:none">
+																					<a href="..//Design_Industrial/industrial_instructables.html" class="sub">Industrial Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Industrial/industrial_fails.html" class="sub">Industrial Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub10')">Interior Design</a>	
+																				<div id="sub10" style="display:none">
+																					<a href="..//Design_Interior/interior_instructables.html" class="sub">Interior Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Interior/interior_fails.html" class="sub">Interior Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub11')">Urban Design</a>	
+																				<div id="sub11" style="display:none">
+																					<a href="..//Design_Urban/urban_instructables.html" class="sub">Urban Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Urban/urban_fails.html" class="sub">Urban Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub12')">UX Design</a>	
+																				<div id="sub12" style="display:none">
+																					<a href="..//Design_UX/ux_instructables.html" class="sub">UX Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_UX/ux_fails.html" class="sub">UX Design Fails
+																						</a>
+																					</div>
+																				</div>
+																				
+																				<div id="main">
+																					<span onclick="openNav()">
+																						<img class="hamburger" src="..//images/hamburger_icon.png" width="40" height="40" alt="menu">
+																						</span>
+																					</div>
+																					
+																																					<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+																</script>															
+																				</div>										
+																		</header>		
+									
+
+													<div class="container">												
+														<main>
+															<img id="banner_ad" src="..//images/banner_ad.jpg" width="1080" height="50" alt="Banner Ad">
+															<h1>Fashion Newsfeed</h1>
+																<div class = "Newsfeed">						
+																	<div id="Fixing-Retails-Returning-Issue">
+																		<h2>Fixing Retail’s ‘Returning’ Issue</h2>
+																		<h5>ApparelMag | March 5, 2018 | Ronen Luzon</h5>
+																		<hr>
+																			<img src="..//images/MySize_hero_0.png" width="1370" height="371" alt="my size hero">
+
+																				<p>Stop me if you’ve had this problem before — you are shopping online for that perfect dress for your friend’s wedding, or a new shirt for your next big business presentation. You find one you love, but words in the product description such a “slim fit,” “petite,” or “tall” have you unsure what size and fit is best for you. Your solution? You buy multiple sizes with the plan to send back the ones that don’t fit for free.</p>
+
+																				<p>It’s the online equivalent to being in a dressing room in a brick-and-mortar store, but it’s also online retail’s most prevalent problem. The lack of a true sizing system results in buyer confusion, and often, the ordering of an ill-fitting item. Then it’s the retailer left to pick up the tab for the cost of return shipping, as well as resending a new item if it’s required.</p>
+
+																				<p>It’s been reported that 20 percent to 30 percent of online apparel orders are being returned (with 70 percent of those returns due to problems with fit), costing the retailer anywhere from $3 to $12 per order. One study cites total expenses to e-retailers from apparel returns at $1.4 billion dollars, roughly 2.5 percent of the total online revenue ($60 billion) of apparel and accessories in 2015.</p>
+
+																				<p>Returns have become such an expensive issue that we’ve begun to see legacy retailers change decades old return policies in order to cut costs. For the past 100 years, L.L Bean had accepted returns of basically any item, purchased at any time, with or without a receipt. But over the past five years, the company reported losing $250 million worth of returned items that could not be resold.</p>
+
+																				<p>But many retailers still offer free returns for merchandise purchased online, putting a significant dent into the bottom line of a booming industry.</p>
+
+																				<p>
+																					<strong>Sizing up the problem</strong>
+																				</p>
+
+																				<p>The most sensible solution to excessive retail return is to fix the industry-wide issue related to product sizing. Despite best efforts across the industry, there is no universal system that drops everyone into an accurate bucket for their size. Where some retailers sell pants by waist and length, others tag them as small, medium or large, and there is no consistency across brand. Even where retailers offer a sizing chart, many consumers will still guess their size or opt for the size they prefer to be, leading to incorrect purchases.</p>
+
+																				<p>Fortunately, there is technology available to the market that will allow consumers to take their true measurements utilizing a mobile device, which would then sync directly to a retailer’s sizing chart and only show the consumer items in a size that correspond to their exact measurements. This ensures a true fit and a correct purchase each and every time.</p>
+
+																				<p>There are other technologies on the market that guestimate your size based off of photos you submit, or that ask you to enter what you think your measurements are so they can recommend what will fit you best. There is also 3D scanning, virtual try-on, and other big data methods.</p>
+
+																				<p>The sizing and return issue has created a sizeable market opportunity for technology companies that can provide a solution enabling retailers to recoup these losses. As the industry continues to drive innovation, we should see retailers trying out these various solutions as a way to increase customer experience while also improving their own bottom line.</p>
+
+																				<p>Ronen Luzon is the CEO of MySize, a developer of proprietary smartphone measurement applications.</p>
+
+																				<p>Original article can be viewed <a href="https://apparelmag.com/fixing-retails-returning-issue">here.</a>
+																				</p>
+																			</div>
+
+																			<div id="How-Design-for-One-Turns-Into-Design-for-All">
+																				<h2>How Design for One Turns Into Design for All</h2>
+																				<h5>New York Times | January 24, 2018 | MICHAEL KIMMELMAN</h5>
+																				<hr>
+
+																					<p>Matthew Walzer was a college-bound teenager with cerebral palsy when he sent a letter to Nike several years ago. He explained that he had trouble tying laces and slipping into shoes without help.</p>
+																					<img src="..//images/26cooperhewitt3-master675.jpg" height="400" width="675" alt="nike shoe">
+																						<p>But he didn’t want sneakers that looked clunky and clinical. He wanted Nikes, stylish ones like other students wore that worked for him.</p>
+
+																						<p>In response, the company introduced a line called FlyEase. They’re slip-ons with a zipper that seals the back and then Velcro-ties the top in one simple motion.</p>
+
+																						<p>Not incidentally, they look fantastic.</p>
+
+																						<p>A pair is now on view at the Cooper Hewitt, Smithsonian Design Museum in “Access+Ability,” a show organized by Cara McCarty and Rochelle Steiner.</p>
+
+																						<p>Nearly a century ago, tubular metal furniture by Marcel Breuer helped reinvent the wheelchair. Chairs by Charles and Ray Eames, classics of midcentury modernism, evolved from a molded plywood splint the couple devised for wounded soldiers.</p>
+
+																						<p>But too often products made for people with different physical, cognitive and sensory abilities have been ugly, feebly designed and stigmatizing.
+
+																							<p>They’ve been developed not by designers but by engineers. And engineers haven’t always taken their cues from people who have disabilities, the ones who know best what they need and want.
+
+																								<p>The exhibition makes plain why design matters. It points toward a generational change in thinking, not just about designing for difference but about diversity and inclusion. Make a specialty item easier to use — and at the same time, fun, cool and beautiful — and that item may be embraced and used by all. The real issue isn’t disability. It’s choice.</p>
+
+																								<p>Graham Pullin is one of the designers of a prosthesis in the show, called Hands of X. I called him the other day. He cited the example of eyeglasses, which doctors used to call “medical appliances.” Then fashion designers got involved.</p>
+<img style="float:left" src = "..//images/26cooperhewitt9-master675.jpg" width="675" height="450" alt="hearing aid">
+																								<p>Annual global sales of eyewear now approach $100 billion. You can imagine if hearing aids were given the same treatment. They might end up looking like the Bedazzled and Bejeweled Earring Aid, by Elana Langer, in “Access+Ability”:</p>
+																								
+																									<p>It turns out that one out of five adults in the United States has some disability, according to the Centers for Disease Control and Prevention — one out of 20 children. That’s a demographic and economic motivator. But we also know that when people feel better about themselves, medical outcomes improve.</p>
+
+																									<p>“The utility of the most functional object in the world will go to waste if potential users don’t connect with it and can’t see themselves using it,” said Donald Strum, a principal for product and graphic design at Michael Graves Architecture and Design. Graves’s firm has rethought, among many medical devices, walking sticks, so they work better and use interchangeable handles, colors and tips, which let customers personalize them.</p>
+
+																									<p>Mr. Strum told me he approached Target about producing a line of medical equipment a decade ago. The company declined. Back then, its marketing department didn’t find the idea sexy. If other retailers took the lead, company officials said, they might follow.</p>
+
+																									<p>Well, the climate has clearly changed. Target now offers adaptive clothing. There’s a Target puffer jacket in the show, designed by Mari Anderson Bogdan, with Velcro seams and zip-on sleeves to serve young people who have trouble dressing.</p>
+
+																									<p>Zappos has gotten into the game, too, selling reversible shirts, coats, dresses and pants, in response to parents who petitioned the online retailer to offer shoes and clothes, easy on and off, for children with disabilities. And now Tommy Hilfiger has its own line of pants, shirts, jackets, sweaters and dresses, using magnetic closures instead of buttons and snaps.</p>
+
+																									<p>Hilfiger has teamed up with MagnaReady, a company started a few years ago by Maura Horton, then a former clothing designer, whose husband suffered from Parkinson’s disease. He had trouble buttoning his shirt. Ms. Horton saw an opportunity, not an obstacle. As with other products in the show, the impetus for better design came from the ground up, in this case not from someone with the disability but from a family member.</p>
+
+																									<p>You don’t have to have Parkinson’s or arthritis or a prosthetic hand to prefer magnets to buttons and snaps, or to like the idea, and look, of Velcro seams and zippered sleeves. There’s a white dress shirt with magnetic closures in the show, which could easily be marketed straight to mainstream consumers, never mind the “adaptive” label. Likewise, pairs of brightly patterned compression socks by Top & Derby.</p>
+
+																									<p>They provide a good example of how design alters the social and business calculus. Compression socks help increase the circulation of blood and minimize swelling from prolonged sedentariness. They’re often worn by people with diabetes or high blood pressure. You may picture them in tan, black or white, next to the bunion pads at the drugstore.</p>
+
+																									<p>But, as it happens, fashion models wear compression socks, too, because they spend long stretches of time on airplanes. So do athletes. And what models and athletes wear moves a lot of merchandise.</p>
+
+																									<p>Compression socks in stylish patterns are just stylish socks that happen to have a medical value for some customers. Any fashion-conscious consumer with a little cash to spare might consider them.</p>
+
+																									<p>When I got home from the show, I Googled a picture of the Nike FlyEase for my teenage son but didn’t tell him the back story. He loved they way they looked.</p>
+
+																									<p>Then I recounted the sneakers’ origins. Would he still wear them? I asked.</p>
+
+																									<p>“Why not?” he asked me back.</p>
+
+																									<p>And that response points toward the generational shift. “Millennials are incredibly nonjudgmental and accepting,” said Leslie Speer, a designer of a prosthetic leg in the exhibition.</p>
+
+																									<p>Ms. Steiner, the co-curator, agreed: “When I talk to my design students about inclusive design, there is no snickering, not even a hint of doubt. They simply take it for granted that it’s part of a designer’s job today.”</p>
+
+																									<p>This is plain logic, really. All our shoes, coats and sweaters, the beds we sleep on, the forks and knives we eat with, our lamps and loudspeakers, stairs and elevators, central heat and air-conditioning exist to compensate for what every human being, to some degree, lacks and needs.</p>
+
+																									<p>“Super normal” is a term that the designers Jasper Morrison and Naoto Fukasawa coined some years ago to describe a class of everyday, mostly anonymous products. Super normal chairs, lamps and bottle openers don’t try too hard to be noticed; they’re part of life, they do their jobs. And we would miss them if they weren’t around.</p>
+
+																									<p>“How super normal can a prosthetic hand be?” is, in essence, the question posed by Hands of X. The project envisions prosthetic hands made from ordinary, tasteful, mix-and-match materials like wood, leather, felt and metal. Muji was an inspiration. It pictures the acquisition of hands becoming similar to picking eyeglass frames or a paint color for a car: unremarkable and at the same time an expression of personal identity.</p>
+
+																									<p>“We think of prosthetic hands mostly in two forms,” Mr. Pullin told me. “There is anatomical realism — meaning those pink, plastic hands — or bionic, ‘Terminator’ hands. Our focus with Hands of X was on people in the middle who don’t want to hide their disability, but also don’t want to become poster children for some futuristic, superhuman narrative, which carries with it a fairly exhausting notion of ‘triumph over adversity.’”</p>
+
+																									<p>His phrase for Hands of X: “No triumph, no tragedy.”</p>
+
+																									<p>And that’s not unlike the thinking behind plastic prosthetic leg covers by McCauley Wanner and Ryan Palibroda, two young Canadian designers, who founded Alleles Design Studio. The covers are among the most striking things in the show: intricately patterned, beautifully designed, like snap-on tattoos.</p>
+
+																									<p>“Our stuff is not cheap,” Mr. Palibroda acknowledged, “but we’re the cheapest prosthetic cover company by far, and we get daily pushback from the industry. Distributors and clinicians are constantly telling us to quadruple our prices.”</p>
+
+																									<p>Correction: January 30, 2018<br> 
+An earlier version of this critic’s notebook misstated the surname of one of the designers who coined the term “super normal.” He is Jasper Morrison, not Meyerson.</p>
+
+																										<p>Original article can be viewed <a href="https://www.nytimes.com/2018/01/24/arts/design/cooper-hewitt-access-ability.html">here.</a>
+																										</p>
+
+																									</div>
+
+																									<div>
+							<h2>Top 10 Tips On Starting A Successful Fashion Design Business</h2>
+<h5>DesignHill.com | October 27, 2017 | Henna Ray</h5>
+<hr>
+<p>You are blessed with a talent for designing fashion products. But to turn your passion into a profitable business is something you need to learn even more. No doubt, doing a business comes with its own risks as you are investing money and time. However, since the demand for fashion items is increasing more than ever before, your fashion design business can pick up shortly with your determination to succeed.</p>
+
+<img src="..//images/fashion-business-1-768x444.jpg" height="444" width="768" alt="fashion business">
+<p>There is a huge scope for growth in the fashion industry and business. According to an estimate, global apparel market alone is worth 3 trillion dollars and it is growing by 2 percent annually. Fashion industry comprises of several segments such as women wear, menswear, children wear, luxury goods, sports footwear and bridal wear.
+It is clear from the stats that the demand for any fashion items you manufacture and sell will be higher. Now it is up to your caliber as a businessperson to explore the opportunities in the market and turn them into a successful business.</p>
+
+
+<h3 style="overflow: hidden; width: 100%;">Here Are Top 10 Tips On Starting A Successful Fashion Design Business</h3>
+<ol>
+<li><strong>Think Like An Entrepreneur</strong>
+<p>To build a fashion business, you must be prepared to think and behave like an entrepreneur. You must come out of your design studio, meet those who know the business, and benefit from their experience. Find out how businesses work. Build solid relationships with a wide range of people such as manufacturers, investors, and buyers.</p></li>
+
+<li><strong>Know Who Your Clients Are</strong>
+<p>Without knowing your target customers or clients, you simply cannot move forward meaningfully when starting your fashion business. Remember that fashion industry and the market is vast, comprising of a wide section of the population from all ages and interests. Who precisely are your customers amongst them? Do some research to know what trends of colors, styles, designs, etc do people like these days? What is the purchasing capacity of your customers? Answer such questions to get a dependable customer profile.</p>
+
+<p>After getting many crucial details about your target audience, you can address their concerns in your graphic design products and advertisement material. For example, your creative banner design can highlight some fashion solutions you provide to the customers based on your research.</p></li>
+
+<li><strong>Start Small With One </strong>
+<p>One of the key points to consider is to start with just one fashion product. Many small business owners work on many product lines. But it is not a good strategy as it involves more time, money and management of staff and other things. Instead, start with one product line. Then, develop that product further so that people have faith in its design.</p></li>
+
+<li><strong>Set Right Prices</strong>
+<p>Another aspect of running a fashion design business successfully is setting the right prices. Find out the amount that your target customer is willing to pay. Then, calculate how much your business would spend on raw material and manufacturing. This way, set the prices in between the highest prices a customer can pay for your fashion product and your overall cost of production. Make sure that the price you set gives you a decent profit.</p></li>
+
+<li><strong>Put Everything On A Website</strong>
+<p>People use the web to search and shop their choice of products or services. Your most of the potential customers make online search and then take a purchasing decision. A website for your fashion level is therefore crucial for its success.
+However, only a user-friendly site on the web works for businesses. A fashion website design is also an ecommerce site, which has special features to make online shopping easier for the customers. You can crowdsource your web design job to marketplaces like Designhill, which is a dependable leading platform for graphic designers and business owners alike. You can shortly get your design job done at affordable prices to your satisfaction.</p></li>
+
+<li><strong>Have A Vision For Brand Identity</strong>
+<p>Your vision for the advancement of your company and its position in the market must be clear to you and your staff. This helps in building a brand identity that is different and unique from your competitors. This means that as a young fashion designer, you need to know what exactly you are doing. Be clear in mind why you want to start the business in the first place. You should be conveying something through your fashion products that others do not say.
+Note that inspirational fashion logo designs play a role in building brand identity of fashion levels. The logo has the elements of colors, typeface, symbols, and images that convey your message of business.</p></li>
+
+<li><strong>Promote Your Brand On Social Media</strong>
+<p>Social media is a powerful medium. A majority of your target audience of fashion business are on different social channels like Twitter, Facebook and Instagram. Without putting your brand on a wide range of social platforms, you cannot think of doing a successful business. Social media marketing is important to reach out to more and more consumers.</p></li>
+
+<li><strong>Distribute Flyers And Brochures</strong>
+<p>One of the effective ways to enhance your customer base of fashion design business is to distribute flyers and brochures. Flyers are generally short marketing materials consisting of one leaf of content. You can distribute them by the side of road to the people randomly for generating awareness about your company.</p>
+<p>Brochures are folded small booklets that contain many details of your business along with product images and text. People are drawn easily to a business if its brochure design is clean, modern and impressive.</p></li>
+
+<li><strong>Meet Challenges Of Production</strong>
+<p>Small businesses have to face many production related challenges. When staring your fashion design business, you should order only small quantities. This is because you are required to make timely payment to manufactures, whereas, you may not be getting the payment on the due date from the retailers. Be prepared to face such challenges.</p>
+<p>To run a business successfully, make sure that your company is financially sound. Acquire enough funds to meet your routine business requirements and other expenses for many months. Remember that your venture may not be able to earn profit right away due to many difficulties such as not getting payments on time. So, make sure that your cash flow position is strong.</p></li>
+
+<li><strong>Get Feedback And Make Timely Improvements</strong>
+<p>Do not get stagnated at one phase of your business. Instead, make all the adjustments and improvements required to take your fashion level forward in a competitive way. For that, get feedback from your clients and implement their constructive suggestions for the advancement of your business.</p></li>
+
+</ol>
+<p>To wrap up, know more about the fashion products you want to create and sell. Know your target customers and acquire enough funds to run your business smoothly for many months at least before you generate profit on your own. Create your brand identity, be present on social media and use every effective promotional medium to build your brand.</p>
+
+
+																										<p>Original article can be viewed <a href="https://www.designhill.com/design-blog/top-10-tips-on-starting-a-successful-fashion-design-business/">here.</a>
+																										</p>
+																									</div>
+																								</div>
+
+																							</main>
+																							<aside>
+																																														<div class = "contact">
+																							<h2>Contact</h2>
+																							<p>Andrew Hewitson<br>
+																						Lower-2230 Mountain Hwy.<br>
+																						North Vancouver, B.C.<br>     V7J2M9<br>
+																												<a id="mobile" href="tel:778-228-2070">778-228-2070</a>	
+																												<span id="desktop">778-228-2070</span>
+																												<a href="mailto:switch_900@hotmail.com">
+																													<em>switch_900@hotmail.com</em>
+																												</a>
+																											</p>
+																										</div>
+
+																										
+																																						<a class="twitter-timeline"  href="https://twitter.com/hashtag/designers" data-widget-id="972990664433479681">#designers Tweets</a>
+																																						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+																																						<br>
+																																							<a href="https://twitter.com/intent/tweet?button_hashtag=aliceandgypsy&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #aliceandgypsy</a>
+																																							<script async src="https://platform.twitter.com/widgets.js"></script>
+																																							<a style="float:left;" href="http://jigsaw.w3.org/css-validator/check/referer">
+																																								<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" >
+																																								</a> 
+																																							</aside>
+																																						</div>																																<footer>Copyright &copy; 2018 FrickenDesigners<br><a href="Contact_Signup_Login/contact_signup_login.html">Contact |&nbsp;</a>
+																																							<a href="..//Careers/careers.html">Careers |&nbsp;</a>
+																																							<a href="..//About_Us/about_us.html">About Us |&nbsp;</a>
+																																							<a href="..//Legal/legal.html">Legal |&nbsp;</a>
+																																							<a href="..//Sitemap/sitemap.html">Site Map</a>
+																																							</footer>		
+
+<script>
+<!--																									 
+	function change(menuname){
+		sub=document.getElementById(menuname);
+		if(sub.style.display=='none')
+			sub.style.display="block";
+		else
+			sub.style.display="none";
+	}			
+//-->
+	</script>
+																																					</body>
+																																				</html>

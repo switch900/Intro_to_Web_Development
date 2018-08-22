@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>FrickenDesigners - UX Design</title>
+			<link rel="stylesheet" href="..//final_project_stylesheet.css">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+					<!--[if lt IE 9]>
+					<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+					</script>
+					<![endif]-->
+				</head>
+				<body>					
+					<header>
+						<div class="container">
+							<h1>Fricken<br>Designers</h1>												
+								<nav>
+									<span id="tagline">where production and designers collide and sensibility ceases to exist</span> 
+
+									<table id="topnav">
+										<tr>
+											<th>
+												<a href="..//index.html">Home</a> 
+											</th>					
+											<th>
+												<a href="..//Design_Fashion/fashion_design.html">Fashion</a>
+											</th>							
+											<th>
+												<a href="..//Design_Graphic/graphic_design.html">Graphic</a>
+											</th>					
+											<th>
+												<a href="..//Design_Industrial/industrial_design.html">Industrial</a>
+											</th>					
+											<th>
+												<a href="..//Design_Interior/interior_design.html">Interior</a>
+											</th>							
+											<th>
+												<a href="..//Design_Urban/urban_design.html">Urban</a> 
+											</th>				
+											<th>
+												<a href="..//Design_UX/ux_design.html">UX</a> 
+											</th>
+										</tr>					
+									</table>
+								</nav>	
+								<div class="social_media">
+									<a href ="https://twitter.com/Frickendesigner">
+										<img src = "..//images/twitter_icon.png" width ="24" height ="24" alt="Twitter">
+										</a>
+										<a href ="https://www.instagram.com/frickendesigners/">
+											<img src = "..//images/insta_icon.png" width ="24" height ="24" alt="Instagram">
+											</a>
+											<a href="https://www.facebook.com/frickendesigners/">
+												<img src = "..//images/face_icon.png" width ="24" height ="24" alt="Facebook">
+												</a>
+												<a href="tel:555-555-1212">
+													<img src = "..//images/phone_icon.png" width ="24" height ="24" alt="Phone">
+													</a>
+													<a href="mailto:frickendesigners@gmail.com">
+														<img src = "..//images/email_icon.png" width ="32" height ="24" alt="Email">
+														</a>	
+														<div id="mySidenav" class="sidenav">
+															<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+															<br>				
+																<a href="..//Design_Fashion/fashion_design.html">Fashion Design</a>
+																<a href="..//Design_Graphic/graphic_design.html">Graphic Design</a>
+																<a href="..//Design_Industrial/industrial_design.html">Industrial Design</a>
+																<a href="..//Design_Interior/interior_design.html">Interior Design</a>
+																<a href="..//Design_Urban/urban_design.html">Urban Design</a>
+																<a href="..//Design_UX/ux_design.html">UX Design</a>
+															</div>
+															<div id="main">
+																<span onclick="openNav()">
+																	<img class="hamburger" src="..//images/hamburger_icon.png" width="32" height="32" alt="menu">
+																	</span>
+																</div>
+																<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "225px";
+    document.getElementById("main").style.marginLeft = "225px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+																</script>															
+															</div>
+														</div>
+													</header>
+
+													<div class="container">												
+
+														<main>
+														<h1>Thanks For the Feedback!<h1>
+														<h3>Now Enjoy The Rest Of Our Site</h3>
+
+																															</main>
+																															<aside>
+																																<div class = "contact">
+																																	<h2>Contact</h2>
+																																	<p>Andrew Hewitson<br>
+																						Lower-2230 Mountain Hwy.<br>
+																						North Vancouver, B.C.<br>     
+																						V7J2M9<br>
+																																						<a id="mobile" href="tel:778-228-2070">778-228-2070</a>	
+																																						<span id="desktop">778-228-2070</span>
+																																						<a href="mailto:switch_900@hotmail.com">
+																																							<em>switch_900@hotmail.com</em>
+																																						</a>
+																																					</p>
+																																				</div>
+
+																																				<a class="twitter-timeline" href="https://twitter.com/hashtag/bcit" data-widget-id="964726801976066048">#bcit Tweets</a>
+																																				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+																																				<br>
+																																					<a href="https://twitter.com/intent/tweet?button_hashtag=aliceandgypsy&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #aliceandgypsy</a>
+																																					<script async src="https://platform.twitter.com/widgets.js"/>
+																																					<a style="float:left;" href="http://jigsaw.w3.org/css-validator/check/referer">
+																																						<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+																																						</a>
+																																					</aside>
+																																				</div>
+
+
+																																				<footer>Copyright &copy; 2018 FrickenDesigners |&nbsp;<a href="..//Contact_Signup_Login/contact_signup_login.html">Contact |&nbsp;</a>
+																																					<a href="..//Careers/careers.html">Careers |&nbsp;</a>
+																																					<a href="..//Contact_Signup_LoginAbout_Us/about_us.html">About Us |&nbsp;</a>
+																																					<a href="..//Legal/legal.html">Legal |&nbsp;</a>
+																																					<a href="..//SiteMap/sitemap.html">Site Map;</a>
+																																				</footer>
+
+																																			</body>
+																																		</html>
