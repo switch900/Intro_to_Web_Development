@@ -1,0 +1,119 @@
+*{	box-sizing: border-box;} 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{	
+
+		background: linear-gradient(45deg, #000000 0%, #ffffff 100%);
+		background-color:gray;
+		color: #FFFFFF;
+		font-family: 'Open Sans',sans-serif;}
+
+header {font-family: 'Open Sans',sans-serif;
+		background-image: url(steampunkcat.jpg);
+		background-position: center;
+		font-size:200%;
+		color: #eaeaea;
+		text-align:left;
+		text-shadow:3px 3px black;
+		border-bottom: solid 1px black;
+		padding: 2px 5px 0px 185px;
+		height: 170px;}
+
+.container { display: flex;
+			flex-direction: row;}
+
+nav{font-weight:900;
+	decoration: none;}
+
+nav table{flex:5;			
+    display:table;
+    border-collapse:collapse;
+	background-color:silver;
+    display:table-cell;
+    text-align:center;
+}
+nav a {text-decoration:none;
+		color:#ffffff;}
+nav a:visited {	color: #000000;}
+nav a:link {	color: #000000;}
+nav a:hover {	color: #eaeaea;}
+nav table,th{border: solid 1.5px black;
+			border-collapse:collapse;}
+nav tr{margin: 2px;}
+
+nav th{padding: 8px;}
+
+main{	text-align:left;
+		flex:15;
+		padding: .5cm;
+		background: linear-gradient(45deg, #000000 0%, #ffffff 100%);
+		color: #FFFFFF;
+		font-family: 'Open Sans', sans-serif;
+		font-size:1.3em;}
+
+dl a{ color: grey;}
+dl a:hover{color: #0084b4;}
+
+img {
+	float: right;
+	height:auto;
+    max-width: 100%;
+}
+
+.contact{text-align:left;
+		color: #000000;
+		font-size: .8em;
+		padding: 40px 5px;}
+
+aside{flex:1;
+	padding:0.5em;}
+
+footer{	border-top: 2px solid #221811;
+		padding: 2px;
+		background-color: #000000;
+		font-size: 0.8em;
+		font-style: italic;
+		text-align: center;
+		<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+		}
+
+.portfolio{ position: relative;
+			}
+.portfolio table{text-decoration: none;
+				margin:10px;}
+.portfolio tr,td{	padding: 10px;}
+.portfolio img{	border: 1px solid black;}
+.portfolio img:hover{border: 1px solid white;}
+.portfolio a{	text-decoration: none; 
+				color: #333;
+				font-style: italic;}
+.portfolio span{	display: none;}
+.portfolio a:hover span{border: 1px solid black;
+						display: block; 
+						position: absolute;
+						left:575px; 
+						text-align: center;
+						padding-bottom: 5px;
+						margin: 10px;
+						background-color: #EAEAEA;}
+
+#pantoneImage{margin:auto;
+				padding:20px;
+				width:100%;}
+
+#mobile{	display:none;}
+#desktop{	display: inline;}
+@media only screen and (max-width: 1024px) {
+	#mobile{ display:none;}
+	#desktop {display:inline;}
+}
+@media only screen and (max-width: 768px) {
+	#mobile{ display:inline;}
+	#desktop {display:none;}}

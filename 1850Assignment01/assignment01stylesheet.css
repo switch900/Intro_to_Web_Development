@@ -1,0 +1,35 @@
+body { 	background-color: #5F4B8B;
+		color: #BFC8E0;
+		font-family:Georgia, "Times New Roman", serif;
+		font-size: .9em;
+		text-indent: 1em;}
+h1 { 	background-color: #255498; 
+		color: #BFC8E0; 
+		font-family: Georgia, "Times New Roman", serif;
+		text-indent: 1em;
+		text-align: center;}
+h2 { 	background-color: #255498; 
+		color: #BFC8E0;
+		font-family: Georgia, "Times New Roman", serif;
+		text-align: center; }	
+		
+nav { 	font-weight: bold;
+		font-size: 1.25em;
+		word-spacing: 1em;
+		text-align: center;
+		text-decoration: none;}
+a:link, a:visited {
+	color: #BFC8E0;
+    text-align: center; 
+    text-decoration: underline;
+}
+a:hover, a:active {
+    background-color: #255498;
+}
+
+ul{		font-weight: bold
+		}
+footer {	color: #BFC8E0;
+			font-size: .75em;
+			font-style: italic;}
+#wrapper {	width:	100%;}

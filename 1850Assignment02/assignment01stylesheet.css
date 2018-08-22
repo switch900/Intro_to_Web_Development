@@ -1,0 +1,53 @@
+body {	background-image: url(pexels-photo-262750.jpeg); 
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		width:640px;
+		height:480px;
+		padding-top: 20px;
+		color: white;}
+
+H1{	/*background-image: url(pexels-photo-262750.jpeg); 
+	background-color: white;*/
+	opacity: 0.6;
+	font-size: 4em;
+	padding: 10px; }
+
+header{	background-image: url(..//images/pexels-photo-262750.jpg); 
+		background-repeat: no-repeat;
+		color: yellow; 
+		font-family: Georgia, "Times New Roman", serif;
+		text-indent: 1em;
+		text-align: center;}
+
+h2 { 	background-color: #255498; 
+		color: white;
+		font-family: Georgia, "Times New Roman", serif;
+		text-align: center; }	
+
+nav { 	color: white;
+		font-weight: bold;
+		font-size: 1.25em;
+		word-spacing: 1em;
+		text-align: center;
+		text-decoration: none;}
+
+a:link, a:visited{	color: white;
+					text-align: center; 
+					text-decoration: underline;}
+
+a:hover, a:active {	background-color: #255498;}
+
+ul,footer,p{	text-align: center;
+			background-color: white;
+			color: black;}
+
+
+ul{	font-weight: bold}
+
+footer{	
+		color: black;
+		font-size: .75em;
+		font-style: italic;}
+
+#wrapper{	width:	100%;}
