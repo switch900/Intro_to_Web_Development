@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<title>FrickenDesigners - Industrial Instructables</title>
+			<link rel="stylesheet" href="..//final_project_stylesheet.css">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+					<!--[if lt IE 9]>
+					<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+					</script>
+					<![endif]-->
+				</head>
+				<body>					
+			<header>
+							<div class="container">
+								<a href="..//..//index.html"><h1>Fricken<br>Designers</h1></a>											
+									<nav>
+										<span id="tagline">where production and designers collide and sensibility ceases to exist</span>
+										
+<div class="topnav">
+<div id="homebutton">
+<button onclick="myFunction(sub0)" class="dropbtn">Home</button>
+  <div id="sub0" class="dropmenu-content">
+<a href="..//index.html">Home</a>
+</div>
+</div>
+<div id="fashionbutton">
+<button onclick="myFunction(sub1)" class="dropbtn">Fashion</button>
+  <div id="sub1" class="dropmenu-content">
+	<a href="..//Design_Fashion/fashion_instructables.html">Fashion News</a>
+	<a href="..//Design_Fashion/fashion_fails.html">Fashion Fails</a>
+  </div>
+ </div>
+ <div id="graphicbutton" >
+<button onclick="myFunction(sub2)" class="dropbtn">Graphic</button>
+  <div id="sub2" class="dropmenu-content">
+	<a href="..//design_graphic/graphic_instructables.html">Graphic Arts News</a>
+	<a href="..//design_graphic/graphic_fails.html">Graphic Arts Fails</a>
+  </div>
+   </div>
+ <div id="industrialbutton" >
+  <button onclick="myFunction(sub3)"  class="dropbtn">Industrial</button>
+  <div id="sub3" class="dropmenu-content">
+	<a href="..//design_industrial/industrial_instructables.html">Industrial Design News</a>
+	<a href="..//design_industrial/industrial_fails.html">Industrial Design Fails</a>
+  </div>
+ </div>
+ <div id="interiorbutton">
+  <button onclick="myFunction(sub4)" class="dropbtn">Interior</button>
+  <div id="sub4" class="dropmenu-content">
+	<a href="..//Design_Interior/interior_instructables.html">Interior Design News</a>
+	<a href="..//Design_Interior/interior_fails.html">Interior Design Fails</a>
+  </div>
+</div>
+ <div id="urbanbutton">
+  <button onclick="myFunction(sub5)" class="dropbtn">Urban</button>
+  <div id="sub5" class="dropmenu-content">
+	<a href="..//Design_Urban/urban_instructables.html">Urban Design News</a>
+	<a href="..//Design_Urban/urban_fails.html">Urban Design Fails</a>
+  </div>
+</div>
+ <div id="uxbutton">
+  <button onclick="myFunction(sub6)"  class="dropbtn">UX</button>
+  <div id="sub6" class="dropmenu-content">
+	<a href="..//Design_UX/UX_instructables.html">UX Design News</a>
+	<a href="..//Design_UX/UX_fails.html">UX Design Fails</a>
+  </div>
+</div>
+</div>
+
+<script>
+window.myFunction = function(e) {
+  var dropdown = e.parentNode.getElementsByClassName('dropmenu-content')[0];
+  dropdown.classList.toggle('show');
+}
+	
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropmenu-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {  	 
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</nav>	
+												
+												<div class="social_media">
+													<a href ="https://twitter.com/Frickendesigner">
+														<img src = "..//images/twitter_icon.png" width ="24" height ="24" alt="Twitter">
+														</a>
+														<a href ="https://www.instagram.com/frickendesigners/">
+															<img src = "..//images/insta_icon.png" width ="24" height ="24" alt="Instagram">
+															</a>
+															<a href="https://www.facebook.com/frickendesigners/">
+																<img src = "..//images/face_icon.png" width ="24" height ="24" alt="Facebook">
+																</a>
+																<a href="tel:555-555-1212">
+																	<img src = "..//images/phone_icon.png" width ="24" height ="24" alt="Phone">
+																	</a>
+																	<a href="mailto:frickendesigners@gmail.com">
+																		<img src = "..//images/email_icon.png" width ="32" height ="24" alt="Email">
+																		</a>	
+																		</div>
+																		
+																		<div id="mySidenav" class="sidenav">
+																			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+																			<br>				
+																				<a href="#" onclick="change('sub7')">Fashion Design</a>	
+																				<div id="sub7" style="display:none">
+																					<a href="..//Design_Fashion/fashion_instructables.html" class="sub">Fashion News
+																					</a>
+																					<br>
+																						<a href="..//Design_Fashion/fashion_fails.html" class="sub">Fashion Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub8')">Graphic Design</a>	
+																				<div id="sub8" style="display:none">
+																					<a href="..//Design_Graphic/graphic_instructables.html" class="sub">Graphic Arts News
+																					</a>
+																					<br>
+																						<a href="..//Design_Graphic/graphic_fails.html" class="sub">Graphic Arts Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub9')">Industrial Design</a>	
+																				<div id="sub9" style="display:none">
+																					<a href="..//Design_Industrial/industrial_instructables.html" class="sub">Industrial Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Industrial/industrial_fails.html" class="sub">Industrial Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub10')">Interior Design</a>	
+																				<div id="sub10" style="display:none">
+																					<a href="..//Design_Interior/interior_instructables.html" class="sub">Interior Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Interior/interior_fails.html" class="sub">Interior Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub11')">Urban Design</a>	
+																				<div id="sub11" style="display:none">
+																					<a href="..//Design_Urban/urban_instructables.html" class="sub">Urban Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_Urban/urban_fails.html" class="sub">Urban Design Fails
+																						</a>
+																					</div>
+																					<a href="#" onclick="change('sub12')">UX Design</a>	
+																				<div id="sub12" style="display:none">
+																					<a href="..//Design_UX/ux_instructables.html" class="sub">UX Design News
+																					</a>
+																					<br>
+																						<a href="..//Design_UX/ux_fails.html" class="sub">UX Design Fails
+																						</a>
+																					</div>
+																				</div>
+																				
+																				<div id="main">
+																					<span onclick="openNav()">
+																						<img class="hamburger" src="..//images/hamburger_icon.png" width="40" height="40" alt="menu">
+																						</span>
+																					</div>
+																					
+																																					<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+																</script>															
+																				</div>
+																				</header>
+													<div class="container">												
+														<main>
+															<img id="banner_ad" src="..//images/banner_ad.jpg" width="1080" height="50" alt="Banner Ad">
+																<div class = "Newsfeed">						
+<div id = "The-Story-Of-The-Duke">							
+<h2>The story of the Duke, the Xbox pad<br> that existed because it had to</h2>
+<h5>ENGADGET.COM | March 18, 2018 | Timothy J. Seppala</h5>
+<hr>
+<img style="float:left;" src="..//images/xbox-controller.jpg" width="400" height="502" alt="digitally printed magazines">
+<em>The much-maligned, sometimes-loved controller is making a comeback.</em><br><br>	
+							<p>Denise Chaudhari had never touched a gamepad before stepping onto Microsoft's campus as a contractor. The first woman to join the Xbox team, Chaudhari had studied ergonomics and industrial design at the prestigious Rhode Island School of Design but didn't have any experience with joysticks. That's part of why Xbox's Jim Stewart was so excited to bring her on board: Her ideas wouldn't be based on preconceived notions of what a gamepad had to be.
+It was early 2000, and the company was preparing to enter the gaming world with the Xbox. In Nov. 2001, the console was released in North America alongside the Duke, a controller that seemed comically large compared to its contemporaries. Within a year, the oversize gamepad was abandoned by Microsoft and replaced with a smaller model, but the Duke has had an impact on every controller since.</p>
+
+<p>Rather than starting from scratch, Chaudhari had to work from Xbox creative director Horace Luke's concept sketches. They'd already been approved from up top, and a third-party supplier had built circuit boards based on those early drawings. Instead of coming up with the shape and ergonomics first and figuring out how to fit the device's internals into the shell after, Chaudhari needed to work backward.</p>
+
+<p>She got to work, sculpting physical models with a wood-like modeling material called RenShape. You can see the legacy of Chaudhari's work in every Xbox gamepad that followed. Its A, B, X, Y face button layout and button style remain today, for starters. But it's the thumbstick placement that has made the most lasting impression on controller design. While the DualShock had parallel sticks at the bottom of the controller, the Duke's were offset, with the left sitting higher than the right by about two inches.</p>
+
+<p>It wasn't until her conversations with Xbox architect Seamus Blackley, J Allard (the "father" of the console's follow-up, the Xbox 360) and her now ex-husband Rob Wyatt that Chaudhari realized the hand she'd been dealt: The circuit boards, already manufactured and ready to go, were comically oversized.</p>
+
+<p>A large circuit board does two things. For one, it costs more to make. It also occupies more physical space. Looking over photos of the circuit board, longtime hardware hacker Ben Heck estimated that even in 2000, the board could've "easily" been a third smaller. He theorized that the circuit board's size was a necessity given the Duke's expansion slots for memory cards and an Xbox Live chat headset (also designed by Chaudhari).</p>
+
+<p>"We were up against a wall," Chaudhari said. "The best thing we could do was create a case that was ergonomically comfortable. If it's gonna have to be that big, then it can at least feel good, right?" Case in point, the Duke's analog sticks are offset rather than parallel, positioned where your thumbs naturally rest.</p>
+
+<blockquote style="float:right; border:.1em solid black; padding:5px;"><strong>"It was no secret to us that it was big."</strong></blockquote>
+
+<p>According to Blackley, that decision was the result of a few Tony Hawk Pro Skater players on the team who thought it'd make virtual skateboarding more fun. Combined with developer Bungie's Halo: Combat Evolved as a launch title, the placement also helped make first-person shooters feel like a natural fit for a console, which was laughable up to that point.</p>
+
+<p>Chaudhari spent most of her days working with electrical engineers, negotiating button layouts and placements, and generally doing whatever possible to shrink the gargantuan gamepad down to size, millimeters at a time. Blackley would come into her office almost daily to check her progress on the new prototypes. Each time, his reaction was the same: The controller wasn't small enough. Her immediate response never changed. She wanted to know how it felt in his hands. "And Seamus would say, 'It feels great, but it's huge,'" she recalled. "It was no secret to us that it was big." The final product was nearly three times larger than the PlayStation's DualShock controller.</p>
+
+<p>At one point, the design team met with electronics supplier Mitsumi, which made the circuit boards for the DualShock. One of the reasons Sony's gamepads were so much smaller was because they used a two-part board that connected via a ribbon cable. The separate pieces of silicon sat perpendicular to one another and allowed for a more modest design overall. When Chaudhari asked Mitsumi if Xbox could have a similar-style board, she was flat-out refused, presumably because of Japan's nationalistic culture.</p> 
+<blockquote style="float:left; border:.1em solid black; padding:5px;"><strong>"The takeaway was kind of like,<br> 'Sony is a Japanese company;<br> Mitsumi is a Japanese company.<br> Xbox is an American company,<br> and you don't get what you get<br> because you want it, even if you're<br> willing to pay for it,'" she said.</strong></blockquote>
+
+<p>Microsoft loves bragging about how much time it spends with gamers listening to their wants and needs for consoles. It's why Xbox gamepads had nine-foot cables with in-line breakaways, for instance, while the DualShock's was a one-piece 6.5-foot cord. But focus testing shouldn't inform every aspect of design. "If you let gamers design a console, it would have built-in pyrotechnics and a machine gun," Blackley said. He quickly added that he didn't mean that as any disrespect -- he considers himself a gamer and understands the mentality.
+"Nobody at the time could possibly have asked for a broadband, hard-drive-enabled machine that works with an operating system so it can provide services in parallel with playing a game that are helpful and good for online gameplay," he said. </p>
+
+<p>Same goes for easy game-development tools. "All of that stuff, intangibles, it's not something you would get by interviewing gamers. It's patent bullshit."</p>
+
+<p>Somehow, while Microsoft was studying people's living rooms, it never took notice of how big the gamepads for competing consoles were or thought about how the console would be perceived outside the US. That domestic focus testing was top brass' justification for the Duke's size. Every time Blackley and his team would complain, they were told that people loved how big the gamepad was and that the design wouldn't change. "You can prove whatever you want in consumer tests," Blackley said.</p>
+
+<p>Microsoft Japan was a different case. While American gamers were split between loving and hating the Duke, Eastern testers and developers unilaterally despised it. In the run-up to launch, Chaudhari and her team went to Japan to do some local focus testing. Before the trip, Chaudhari had heard Microsoft Japan was threatening to tell Eastern developers not to make games for the console unless the controller went through serious design revisions. "They were telling us, 'We have no choice. We have to tell developers that this is no good,'" she recalled.</p>
+
+<blockquote style="float:right; border:.1em solid black; padding:5px;"><strong>"We have no choice.<br> We have to tell developers<br> that this is no good."</strong></blockquote>
+
+<p>There was a catch to the testing though: The Americans weren't allowed to talk to or interact with the gamers directly. The worry was that once the testers saw Americans, they'd "know this is not really to be taken seriously, because it's not a Japanese product," she said. Instead, the Xbox team had to watch the sessions through closed circuit TV.</p>
+
+<p>The tests were naturally conducted in Japanese, and because they didn't speak the language, the team had to rely on a Japanese Microsoft employee to translate. The wrinkle is that this translator had already told Chaudhari that he hated the controller. As an industrial designer, Chaudhari wanted to know if the buttons were close enough together or if the handles fit in the testers' mitts, details that she could use to adjust the design. Instead, she was told the testers didn't like anything about the Duke whatsoever. It wasn't helpful. She described the trip as one long Lost in Translation moment, where minutes of speech from the testers was boiled down to, "Oh, he doesn't like it; it's too big."</p>
+
+<p>Did she trust that the translator was accurately relaying the feedback to her? "Of course not," she said. "It was really very pointless." The hardware had to go into production regardless of what the focus testing revealed, and so it did, with the caveat that there would be an immediate redesign for the staggered Japanese launch.</p>
+
+<p>Blackley's interactions with Japanese developers were similar. Images of the Duke began appearing in magazines and online, and the game makers started to "freak out" because they were imagining telling their native customers that if they wanted to play the next Final Fantasy or Dragon Quest, they'd need this massive console and gamepad in their diminutive living spaces. The general worry among developers was that no one would buy their games and it'd damage their reputations. "There was actually a petition of Japanese game developers [against the Duke], and it had a lot of really famous names on it," Blackley recalled.</p>
+
+ 
+<p>On Nov. 15th, 2001, the Xbox hit store shelves in North America with Chaudhari's Duke packed in. Three months later, it arrived in Japan with the svelte Controller S, designed by Microsoft's on-staff industrial designers. Once they saw it, people all over the world naturally wanted the smaller gamepad, and that fall, Microsoft made it the default controller that shipped with every console.</p>
+
+<p>Suddenly, the Controller S was roughly two-thirds of the Duke's size because it used the two-piece circuit board Chaudhari had asked for initially. Other changes included the black-and-white face buttons being awkwardly moved away from the A, B, X, Y six-pack on the Duke's upper right side, and the Back and Start buttons shifted positions and changed design as well. The gamepad also finally had a traditional cross-type D-pad rather than the Duke's squishy wave style that felt like a leftover from one of Microsoft's SideWinder controllers for PCs.</p>
+
+<p>"It was very easy for [Microsoft's designers] to be like, 'See? Told you so. If we had designed it, it would've been a hit right from the beginning,'" Chaudhari said. "They were really proud that they had vindication, that they could design a controller and that my original controller was discontinued."</p>
+
+<blockquote style="float:right; border:.1em solid black; padding:5px;"><strong>"They were really proud that they<br> had vindication, that they could<br> design a controller and that my<br> original controller was discontinued."</strong></blockquote>
+
+<p>At the time, Chaudhari thought the Duke's legacy would be "shame." Microsoft was quick to throw her work under the bus, killing the Duke wholesale a few short years after making the Controller S the Xbox's pack-in gamepad. "It was this shameful thing that happened, that we launched a controller before we should have. We should have taken more time, we should've pushed harder for a different board. We should've waited and not launched when we did," she said, a hint of forlornness in her voice. Chaudhari said that there wasn't a jovial or congratulatory atmosphere surrounding the Xbox team's efforts after launch.</p>
+
+<p>She's still incredibly proud of her work and doesn't consider it a black mark on her resume, regardless of the duress. In fact, it's quite the opposite. "It was probably the highlight of all the things I've worked on in my career," she said, "and there's been a lot." She said clients for her design firm are typically excited about her work on Xbox.</p>
+
+<p>To this day, Blackley has nothing but praise for Chaudhari's talents. "She did a remarkable job making this thing that people love so much, given that it had to be the size of the island of Manhattan," he said.</p>
+
+ 
+<p>For Chris Gallizzi, the Duke calls a different memory to mind. "It always reminds me of Xbox Live," he said. Gallizzi is a project manager and head of research and development at Hyperkin, the accessory maker bringing the Duke back to life. To him, it's intrinsically tied to his first foray into online gaming, and the gamepad's sheer size is what made the original Xbox as a whole so memorable. He speculated that if the console had shipped with a smaller controller that it wouldn't have stood out nearly as much. When he first saw the Duke, he was enamored by the translucent jelly bean-style face buttons and the massive Xbox nameplate in the center of the controller.
+"I'm like, 'Wow! That controller must be so powerful for it to be so big,'" he recalled. "Then I grow up and find out that, no, there's actually no reason [for the size]. The designer was just working with what she had." He thought the gamepad was OK at the time but didn't particularly love it. These days, though, he likes the Xbox One gamepad so much that he uses an adapter so he doesn't have to play with a DualShock 4 when he's using his PlayStation 4.</p>
+
+<p>Gallizzi first approached Microsoft about reissuing the Duke two or three years ago. Instead of an Xbox One controller, though, he pitched it as an accessory for the original Xbox. Hyperkin specializes in retro products for classic consoles, and while Gallizzi admits the Xbox is far from a classic, it was still a project he wanted to tackle.</p>
+
+<p>Microsoft turned him down. Gallizzi was told that if Hyperkin was going to be a licensed partner, it should instead make accessories for the Xbox One. Fast-forward to early 2017 when Gallizzi got a phone call from Xbox's licensing director, Gaylon Blank. Blank said he thought he'd "paved the way" for the project to happen and asked if Gallizzi was still interested in working on the Duke. "Without checking with my bosses, I said yes," Gallizzi said.</p>
+
+<p>After initial meetings with Microsoft, Gallizzi met with Blackley. Through a lot of what Blackley described as "good faith efforts," the trio worked out an agreement for Redmond to grant access to the original Xbox logo, boot animation and the Duke's industrial-design licenses.</p>
+
+<p>Gallizzi and Blackley live a few minutes away from each other in Southern California, and over the next year they worked in secret to resurrect the gamepad. Between Feb. and June 2017, Gallizzi said Microsoft was largely quiet and he wasn't sure what was going on, but he and Blackley kept plugging away regardless. The weekend before E3 in June, he and a coworker were building prototypes on Gallizzi's balcony. The pair were under the assumption that Microsoft would debut the controller at E3 alongside its announcement that games from the original Xbox would be backwards compatible on the Xbox One. That never panned out.</p>
+
+<p>That's not to say Microsoft hasn't played an active role in the Duke reissue's development. In fact, the company's participation was more intense than Gallizzi was used to with Samsung. After E3, things started moving quickly, and Microsoft began asking for progress reports more often and became very involved in general, asking for new rendering models on a weekly basis.</p>
+
+<p>The internal design team wasn't happy, and even though the new Duke was being made by a third party, because of the licensing agreement, Microsoft had final approval on every aspect. Like where the shoulder buttons had to be shoehorned in, because now as an Xbox One controller, it had to have the exact same inputs as a standard gamepad. "I don't know how many samples we sent them for testing," Gallizzi admitted. Once both teams came to terms on overall design, Microsoft started kvetching about the gamepad's weight. The original Duke tips the scale at 425 grams; Hyperkin's version weighs 419 grams -- lighter by about the weight of a US quarter.</p>
+
+ 
+<p>When the project started, Blackley gave Gallizzi a quick way to gauge how accurate the mock-ups were: The Xbox architect told him to put a dinner plate in his lap. If Gallizzi could replicate that feeling with his Duke reissue, Hyperkin did its job. By the end, Gallizzi wasn't prepared for how Blackley would measure success when he walked into Hyperkin's offices. "He didn't plug it in; he didn't play with it. He just put it in his lap," Gallizzi said. "He's like, 'That's all I need to know.'" Gallizzi was puzzled but said if Blackley was happy, so was he.</p>
+
+<p>For the first six months, Gallizzi worked under the assumption that his version of the controller would be wireless -- a feature Microsoft had introduced with the Xbox 360 in 2005. But then Microsoft changed its mind, because no third-party controller is allowed access to the company's proprietary wireless technology.
+
+<p>"I pulled some shit to force Microsoft into allowing us to have the display,"
+Hyperkin also toyed with the idea of repurposing the expansion slots as USB ports, but that ultimately didn't past muster either. The black-and-white face buttons, however, remain intact, acting as redundancies if you don't like the new shoulder-button placement near the triggers. An approximation of the terrible D-pad from the original controller is present as well. And instead of an in-line breakaway, Hyperkin's Duke mates to the Xbox One or a PC with a Micro USB cable that connects to the controller like a cellphone charger.</p>
+
+<p>The new Duke's standout feature is an OLED screen that replaces the Red-Bull-can-size jewel from the original gamepad. Blackley wanted a killer feature that'd help the new Duke stand out from other third-party controllers. The display is something that he always wished the gamepad had back in 2001, in part because of his love for the Sega Dreamcast's VMU, a memory card with an LCD that slid into the console's controller. Gallizzi harvested LCD screens from cheap Chinese MP3 players for the prototypes he cobbled together on his balcony, while Blackley used OLED screens he had laying around at home.</p>
+
+<p>To force Microsoft into approving the design idea, Blackley posted the infamous video of his work on Twitter. The video made headlines and racked up enough impressions that Xbox chief Phil Spencer direct messaged Blackley that night. "I pulled some shit to force Microsoft into allowing us to have the display," Blackley said. Anytime you press the button, the Xbox's boot animation plays, in tribute to the console's legacy.</p>
+
+<blockquote style="float:left; border:.1em solid black; padding:5px;"><strong>"I don't think anything is perfect," he said.<br> "I don't think this exercise was about<br> making the perfect Xbox controller. This<br> is about making the perfect Duke for 2018."</strong></blockquote>
+
+
+<p>It's this type of grit that defines the Duke's legacy today, Chaudhari said. Where once it was "shame," now it's "Seamus."
+"There's only one person who could resurrect [the Duke], relaunch it as nostalgic and get away with it," she said. "And that person is Seamus Blackley."</p>
+
+<p>It's easy to improve the Duke -- Microsoft has been doing so for the past 16 years. But improving it wasn't the point this time. While Blackley isn't confident he and Hyperkin nailed the feel and placement of the shoulder buttons, he's pleased overall.</p>
+
+
+Original article can be viewed <a href="https://www.engadget.com/2018/03/23/xbox-controller-retrospective-hyperkin-duke-gamepad/">here.</a>
+</div>
+
+</div>
+																	</main>
+																	<aside>
+																																											<div class = "contact">
+																							<h2>Contact</h2>
+																							<p>Andrew Hewitson<br>
+																						Lower-2230 Mountain Hwy.<br>
+																						North Vancouver, B.C.<br>     V7J2M9<br>
+																												<a id="mobile" href="tel:778-228-2070">778-228-2070</a>	
+																												<span id="desktop">778-228-2070</span>
+																												<a href="mailto:switch_900@hotmail.com">
+																													<em>switch_900@hotmail.com</em>
+																												</a>
+																											</p>
+																										</div>
+
+																										
+																																						<a class="twitter-timeline"  href="https://twitter.com/hashtag/designers" data-widget-id="972990664433479681">#designers Tweets</a>
+																																						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+																																						<br>
+																																							<a href="https://twitter.com/intent/tweet?button_hashtag=aliceandgypsy&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #aliceandgypsy</a>
+																																							<script async src="https://platform.twitter.com/widgets.js"></script>
+																																							<a style="float:left;" href="http://jigsaw.w3.org/css-validator/check/referer">
+																																								<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" >
+																																								</a> 
+																																							</aside>
+																																						</div>																																<footer>Copyright &copy; 2018 FrickenDesigners<br><a href="Contact_Signup_Login/contact_signup_login.html">Contact |&nbsp;</a>
+																																							<a href="..//Careers/careers.html">Careers |&nbsp;</a>
+																																							<a href="..//About_Us/about_us.html">About Us |&nbsp;</a>
+																																							<a href="..//Legal/legal.html">Legal |&nbsp;</a>
+																																							<a href="..//Sitemap/sitemap.html">Site Map</a>
+																																							</footer>		
+
+<script>
+<!--																									 
+	function change(menuname){
+		sub=document.getElementById(menuname);
+		if(sub.style.display=='none')
+			sub.style.display="block";
+		else
+			sub.style.display="none";
+	}			
+//-->
+	</script>
+																																					</body>
+																																				</html>
